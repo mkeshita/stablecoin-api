@@ -18,8 +18,7 @@ const address = await stablecoin.coins().
 ```
 { name: "African Stable Coin", symbol: "ABCD" },
 { name: "Nigerian Naira Token", symbol: "NGNT" },
-{ name: "USD Coin", symbol: "USDC" },
-{ name: "Binance USD", symbol: "BUSD" }
+{ name: "USD Coin", symbol: "USDC" }
 ```
 
 #### Create Address 
@@ -27,7 +26,7 @@ const address = await stablecoin.coins().
 const stablecoin = require('stablecoin-api');
 
 (async () => {
-  const address = await stablecoin.createAddress("USDC") // USDC, BUSD, NGNT, ABCD.
+  const address = await stablecoin.createAddress("USDC") // USDC, NGNT, ABCD.
 })();
 ```
 ```
