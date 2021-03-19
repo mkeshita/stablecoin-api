@@ -1,4 +1,4 @@
-import ethers from 'ethers'
+import * as ethers from 'ethers'
 import ngnt from '../../coins/ngnt.js'
 import usdc from '../../coins/usdc.js'
 
