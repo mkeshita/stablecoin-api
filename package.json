@@ -22,7 +22,6 @@
   "author": "richwednesday",
   "license": "ISC",
   "dependencies": {
-    "@binance-chain/javascript-sdk": "^4.1.1",
     "ethers": "^5.0.32"
   }
 }
