@@ -1,11 +1,10 @@
 {
   "name": "stablecoin-api",
   "version": "1.0.0",
-  "description": "Node Module for generating stable coin addresses, checking balance and making transfers",
+  "description": "Node module for checking stablecoin balances.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "type": "module",
+  "scripts": {},
   "keywords": [
     "USDC",
     "BUSD",
@@ -17,10 +16,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/richwednesday/stablecoin-api.git"
+    "url": "https://github.com/talentlessguy/stablecoin-api.git"
   },
-  "author": "richwednesday",
-  "license": "ISC",
+  "author": "talentlessguy",
+  "license": "MIT",
   "dependencies": {
     "ethers": "^5.0.32"
   }
