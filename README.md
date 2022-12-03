@@ -21,7 +21,7 @@ const balance = await stablecoin.balance('bnb13lrs4k2utmlp46v7m72mt738n9yqs3cx56
 
 #### Dependencies
 
-- [Ethers.js] (https://github.com/ethers-io/ethers.js)
+- [Ethers.js](https://github.com/ethers-io/ethers.js)
 
 #### Contributing
 
